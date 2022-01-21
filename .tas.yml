@@ -1,0 +1,16 @@
+framework: mocha
+tier: small
+postMerge:
+  pattern: 
+    - "test/test.ts"
+preMerge:
+  pattern:
+    - "test/test.ts"
+preRun:
+     command:
+        - npm install
+postRun:
+     command:
+        - node --version
+        - node --version
+version: 1.2
