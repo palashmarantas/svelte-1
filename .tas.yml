@@ -1,5 +1,5 @@
 framework: mocha
-tier: large
+tier: small
 postMerge:
   pattern: 
     - "test/test.ts"
@@ -13,4 +13,4 @@ postRun:
      command:
         - node --version
         - node --version
-version: 1.0
+version: 1.2
