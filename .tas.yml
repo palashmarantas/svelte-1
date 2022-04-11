@@ -12,4 +12,4 @@ postRun:
      command:
         - node --version
         - node --version
-version: 1.9
+version: 1.0
