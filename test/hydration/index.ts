@@ -15,7 +15,7 @@ let compileOptions = null;
 
 const sveltePath = process.cwd();
 
-describe('hydration', () => {
+describe('hydrationn', () => {
 	before(() => {
 		const svelte = loadSvelte();
 
